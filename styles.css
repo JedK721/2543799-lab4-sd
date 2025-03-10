@@ -1,23 +1,99 @@
 * {
-
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
 }
 
 body {
-
+    background-color: #f4f4f4;
 }
 
-.country {
-
+header {
+    background-color: #004D98;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
 }
 
-.btnSubmit {
-
+h1 {
+    margin: 0;
 }
 
-.country-info {
-
+.search {
+    width: 90%;
+    max-width: 470px;
+    background: linear-gradient(135deg, #004D98, #FFFDD0);
+    color: #fff;
+    margin: 100px auto 0;
+    border-radius: 20px;
+    padding: 40px 35px;
+    text-align: center;
 }
 
-.bordering-countries {
+.searchinput {
+    padding: 10px;
+    width: 250px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
 
+button {
+    padding: 10px 15px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #28a745;
+}
+
+.info-section {
+    background: white;
+    padding: 20px;
+    margin: 20px auto;
+    width: 50%;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.info-section h2 {
+    margin-bottom: 15px;
+}
+
+#country-details img {
+    display: block;
+    margin: 10px auto;
+    border-radius: 5px;
+}
+
+#borders-list {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.border-country {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background: #f9f9f9;
+    text-align: center;
+}
+
+.border-country img {
+    display: block;
+    margin: auto;
+    border-radius: 5px;
+    width: 50px;
+}
+
+.error-message {
+    color: red;
+    font-weight: bold;
 }

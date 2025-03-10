@@ -1,35 +1,34 @@
 <!DOCTYPE html>
-    <html lang="en">
-    
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>REST Countries API Lab</title>
-        <link rel="stylesheet" href="styles.css">
-    </head>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>REST Countries API Lab</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
 
-    <body>
+    <header>
+        <h1>Country Generator</h1>
+    </header>
 
-        <header>
-            <h1>REST Countries</h1>
-        </header>
+    <main>
+        <section class="search">
+            <input id="country" type="text" placeholder="Enter country">
+            <button id="btnSubmit">Submit</button>
+        </section>
 
-        <main>
-            <input id="c-input"></input>
+        <section id="country-info" class="info-section">
+            <h2>Country Information</h2>
+            <div id="country-details"></div>
+        </section>
 
-            <button id="submit">Submit!</button>
+        <section id="bordering-countries" class="info-section">
+            <h2>Bordering Countries</h2>
+            <div id="borders-list"></div>
+        </section>
+    </main>
 
-            <section id="country-info">
-
-            </section>
-
-            <section id="bordering-countries">
-
-            </section>
-        </main>
-    
-
-        <script src="script.js"></script>
-    </body>
-
+    <script src="script.js"></script>
+</body>
 </html>
